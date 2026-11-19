@@ -570,7 +570,7 @@ function drawScene(): void {
   drawText('GTA 6 IS SET IN FLORIDA.', W / 2, 50, 7, [255, 255, 255]);
 
   // Sunset sky.
-  fillGradient(150, 150, W, 560, [
+  fillGradient(0, 150, W, 560, [
     [0, SUNSET_TOP],
     [0.35, SUNSET_MID],
     [0.65, SUNSET_LOW],
